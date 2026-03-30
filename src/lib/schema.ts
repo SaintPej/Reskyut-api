@@ -108,7 +108,7 @@ export const adoptionApplication = pgTable("adoption_application", {
   otherPets: boolean("other_pets").notNull().default(false),
   pastPets: boolean("past_pets").notNull().default(false),
 
-  // Uploads (stored as URLs)
+  // Uploads (stored as URLss)
   houseFront: text("house_front"),
   street: text("street"),
   livingRoom: text("living_room"),
